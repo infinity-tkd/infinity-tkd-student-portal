@@ -1,7 +1,7 @@
 {
-  "name": "Infinity Taekwondo Student Registration Form",
-  "short_name": "Infinity TKD Student Registration Form",
-  "description": "Registration Form",
+  "name": "Infinity Taekwondo Student Portal",
+  "short_name": "Infinity TKD Student Portal",
+  "description": "Student Portal for Infinity Taekwondo Student only",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -21,4 +21,5 @@
       "purpose": "any"
     }
   ]
+
 }
