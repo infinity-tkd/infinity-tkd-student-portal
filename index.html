@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Infinity TKD Student Portal</title>
+    
+    <link rel="manifest" href="./manifest.json">
+    
+    <link rel="apple-touch-icon" href="./icons/Infinity-TKD-logo-256.ico">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Infinity TKD Student Portal">
+    <meta name="theme-color" content="#0f172a">
+
+    <link rel="icon" href="icons/Infinity-TKD-logo-256.ico" sizes="32x32">
+    <link rel="icon" href="icons/Infinity-TKD-logo-64.png" sizes="16x16">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        /* Hide scrollbar for the shell to feel native */
+        body { overscroll-behavior-y: none; }
+    </style>
+</head>
+<body class="h-screen w-screen overflow-hidden bg-gray-100 flex flex-col">
+
+    <main class="flex-grow relative w-full h-full">
+        <iframe 
+            id="infinityTKDFrame"
+            src="https://script.google.com/macros/s/AKfycbwFHE1FUKiLzrcl0ISqeDIPbns1cfrAlCUUWOfHWiAgSoGY07AJaqBl-CRpomF-urAe-Q/exec" 
+            class="absolute top-0 left-0 w-full h-full border-0"
+            sandbox="allow-scripts allow-top-navigation allow-forms allow-same-origin allow-popups"
+            title="Google Apps Script Content">
+        </iframe>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
